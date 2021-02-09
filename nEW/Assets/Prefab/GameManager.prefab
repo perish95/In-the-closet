@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1968460390335214}
+  m_IsPrefabParent: 1
+--- !u!1 &1968460390335214
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4028447197364300}
+  - component: {fileID: 114342267236835314}
+  - component: {fileID: 82760184444411196}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4028447197364300
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1968460390335214}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.15, y: -0.17, z: 0.009197855}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &82760184444411196
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1968460390335214}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 148fbd89c15cfa84ab74f70fa621ead0, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &114342267236835314
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1968460390335214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5685a9b44405d447adf93c57d9ceca2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeLabel: {fileID: 0}
+  timeCount: 15
+  ItemList:
+  - {fileID: 1189135513773854, guid: ea910aacfefacb349825a1dacd0ab898, type: 2}
+  - {fileID: 1735532684321998, guid: 2e117159753039145a4a60910eaea939, type: 2}
+  - {fileID: 1576033845945834, guid: ce96d5b507a6e9147a9adc146c4ccd92, type: 2}
+  - {fileID: 1332312926949836, guid: 136e03ede6fc83440af8d27d112b1448, type: 2}
+  - {fileID: 1927390373096538, guid: 7633c4bc94e1622479ee50ca7440b3d6, type: 2}
+  - {fileID: 1571736347034492, guid: 2eadd0892504cd44794ed4bad393fc8e, type: 2}
+  - {fileID: 1948685592784948, guid: 4efd40c2c4ae4cb41a3e24d930064475, type: 2}
+  - {fileID: 1876067962206978, guid: 657f00d23a7b7994a87b83dcc03e503c, type: 2}
+  - {fileID: 1936859238630352, guid: 7a7cfaea7b6afd449a5ae36d5e84fe5c, type: 2}
+  - {fileID: 1794807981021654, guid: f14ce48dad9c92542a294ce1e4ee9a86, type: 2}
+  - {fileID: 1117492916466916, guid: 8526bdb2ad7fee249b3a6ff77bae15e4, type: 2}
+  - {fileID: 1487466628514064, guid: 3dfe9fc0996fe0147a0355798678cabf, type: 2}
+  - {fileID: 1563516018746626, guid: 6cebd0867b9535940930d6f3e6cf67ed, type: 2}
+  canSkillList:
+  - {fileID: 114529319682294168, guid: 19df21c4080366b43a96f6febbfef814, type: 2}
+  - {fileID: 114565624658210450, guid: 9c4c7d2b2b7bf4043af961ce3982f676, type: 2}
+  - {fileID: 114985749469211018, guid: 09f73358049a121419df546efc35c9da, type: 2}
+  - {fileID: 114423700568428356, guid: 0b85af753ff99d849802d47028fe0e2e, type: 2}
+  coin: {fileID: 1045423423500208, guid: 4e6adbc938430734ea338006d69821ae, type: 2}
+  gameCheck: 0
+  setCount: 0
+  holdMouse: 0
+  convertedSomething: 0
+  endTag: 0
+  usedSkillTime: 0
+  convertedOriginaItem: {fileID: 0}
+  convertedItem: {fileID: 0}
+  blocking: {fileID: 0}
+  isDragging: 0
+  hidingObject: {fileID: 0}
